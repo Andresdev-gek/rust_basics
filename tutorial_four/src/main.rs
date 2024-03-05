@@ -53,4 +53,6 @@ fn main() {
     // explicitly state the types in our array
     let arr2: [i32; 4] = [1,2,3,4];
     println!("{:?}", arr2);
+
+    
 }
