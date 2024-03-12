@@ -1,0 +1,1 @@
+C:\Users\Admin\Documents\Practice_proyects\rust_projects\rust_tutorials\tutorial_five\target\debug\tutorial_five.exe: C:\Users\Admin\Documents\Practice_proyects\rust_projects\rust_tutorials\tutorial_five\src\main.rs
