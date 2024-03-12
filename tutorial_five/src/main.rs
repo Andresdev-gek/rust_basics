@@ -16,7 +16,7 @@ fn main() {
     // declaration or function declaration.
 
     // Variable declaration
-    let x = 115; // this is a statement - it doesnt 
+    let _x = 115; // this is a statement - it doesnt 
                       // evaluate anything
 
     
@@ -41,6 +41,14 @@ fn main() {
     // Closure
     let add_numbers = |x: i32, y:i32| x + y;
     println!("Closure sum: {}", add_numbers(10,20));
+
+    // Super handy because you can outside variables
+    // which you cant do with a standard function
+    // because it's block scoped
+
+    let hi: &str = "hi ";
+    let greeting = |name: &str| hi.to_string() + name;
+    println!("{}", greeting("Bob"));
 
 
 }
